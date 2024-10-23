@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import getDevs from './lib/getDevs';
 
 export default function Home() {
@@ -19,9 +19,9 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row items-center gap-8">
           {/* Text on the Left, Centered Vertically */}
           <div className="sm:w-2/3 text-center sm:text-left flex flex-col justify-center">
-            <h1 className="text-4xl font-bold">Hi! I’m Camila, welcome to my Page! I’m happy you’re here ☺️</h1>
+            <h1 className="text-4xl font-bold">Hi! Im Camila, welcome to my Page! Im happy youre here ☺️</h1>
             <p className="text-xl mt-4">
-              I'm currently a junior at UC Berkeley with a strong interest in the relationship between technology and social progress!
+              Im currently a junior at UC Berkeley with a strong interest in the relationship between technology and social progress!
             </p>
           </div>
 
@@ -121,7 +121,7 @@ export default function Home() {
 
       {/* Connect Section */}
       <section id="connect" className="py-16 bg-[var(--background)] text-[var(--foreground)]">
-        <h1 className="text-5xl font-bold text-center mb-12">Let's Connect!</h1>
+        <h1 className="text-5xl font-bold text-center mb-12">Lets Connect!</h1>
         <div className="flex flex-col sm:flex-row justify-around items-center gap-12 p-8">
           {/* Contact 1 */}
           <div className="flex flex-col items-center">
