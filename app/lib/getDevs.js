@@ -1,7 +1,8 @@
 
 import { Card } from "../cards";
 
-const Airtable = require('airtable');
+import * as Airtable from 'airtable';
+
 const base = new Airtable({
     apiKey: process.env.NEXT_APP_AUTH_TOKEN
 }).base(process.env.NEXT_APP_BASE_ID)
