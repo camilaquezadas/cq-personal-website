@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&display=swap');
+
+:root {
+  --background: #F4E9EF;
+  --foreground: #BD517F;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #BD517F;
+    --foreground: #F4E9EF;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Ibarra Real Nova', Arial, Helvetica, sans-serif;
+}
+
+section {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
